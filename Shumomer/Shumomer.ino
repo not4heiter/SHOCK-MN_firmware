@@ -1,4 +1,4 @@
-#include <driver/adc.h>
+.#include <driver/adc.h>
 #include <WiFi.h>
 #include "GyverTimer.h"
 #include "arduinoFFT.h"
@@ -10,10 +10,10 @@
 #include <ArduinoJson.h>
 #include <WiFiManager.h>
 
-const char* SERVER_NAME = "http://dbrobo.mgul.ac.ru/core/jsonadd.php";
-const char* SSID = "rt";
-const char* WIFI_PASSWORD = "apsI0gqvFn";
-const char * pass = "SHUM--MN";
+const char* SERVER_NAME = "...";
+const char* SSID = "...";
+const char* WIFI_PASSWORD = "...";
+const char * pass = "...";
 
 String SHOCK_SERIAL = "04";
 String SHOCK_NAME = "SHOK-MN(" + SHOCK_SERIAL + ")";
